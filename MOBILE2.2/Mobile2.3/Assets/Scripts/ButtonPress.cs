@@ -22,7 +22,7 @@ public class ButtonPress : MonoBehaviour
 
     public void PlayGame()
     {
+        Debug.Log("Play button clicked");
         SceneManager.LoadScene("level1");
     }
-
 }
